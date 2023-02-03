@@ -4,4 +4,4 @@
 
 ## Preview Layout
 
-- Link :
+- Link : https://w3-landing-page-nurdinbeta.netlify.app
