@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="a web for Gryffindorian" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Gryffindor FanClub</title>
+    <link rel="icon" href="assets/gryffin-icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <nav>
+      <span class="mobile">
+        <img src="assets/humberger.png" alt="Hamburger Icon" />
+      </span>
+      <span class="icon">
+        <img src="assets/gryffin-icon.png" alt="Gryffindor Fan Club Icon" />
+        <b>Gryffindor FanClub</b>
+      </span>
+      <div class="navheader">
+        <a class="navbarlink" href="#">Home</a>
+        <a class="navbarlink" href="#">About</a>
+        <a class="navbarlink" href="#">Contact</a>
+      </div>
+    </nav>
+    <header class="background">
+      <h1>"DRACO DORMIENS NUNQUAM TITILANDUS"</h1>
+      <p>"never tickle a sleeping dragon"</p>
+    </header>
+
+    <main>
+      <div class="history">
+        <h2>History of Founder</h2>
+      </div>
+      <section class="history-container">
+        <div>
+          <img src="assets/godric.png" alt="Godric Gryffindor Photo" />
+        </div>
+        <div>
+          <p>
+            Godric Gryffindor (fl. c. 993) was an English wizard and one of the
+            four founders of Hogwarts School of Witchcraft and Wizardry. He was
+            great friends with Salazar Slytherin, but opposed him when he later
+            thought that they should not accept Muggle-born students at
+            Hogwarts. It is unknown when he died. In his honour Gryffindor's
+            birthplace became known as Godric's Hollow. Godric Gryffindor's
+            portrait still remains at Hogwarts.
+          </p>
+          <p>
+            His surname is a reference to the half-lion magical beast, the
+            Griffin, a fierce, legendary beast with the body of a lion, and the
+            head and wings of an eagle. The Hogwarts house named after him uses
+            a lion as its symbol. Furthermore, the last part of his surname,
+            "dor", is similar to both the French d'or, "made from gold",
+            "golden", which is one of the colours of his Hogwarts House, or the
+            suffix dore, which means "gift of", in which case the meaning of
+            "Gryffindor" would be "gift of the Gryffin".
+          </p>
+        </div>
+      </section>
+
+      <section class="gryffincommonroom">
+        <h2>Gryffindor Common Room</h2>
+        <div class="grid-container">
+          <div class="image-1">
+            <img
+              src="assets/gryffincr1.jpg"
+              alt="Gryffindor Common Room with Small Lion Statue in the Middle "
+            />
+          </div>
+          <div class="image-2">
+            <img
+              src="assets/gryffincr2.png"
+              alt="Glamorous Gryffindor Common Room"
+            />
+          </div>
+          <div class="image-3">
+            <img
+              src="assets/gryffincr3.jpg"
+              alt="Gryffindor Common Room with Fire on"
+            />
+          </div>
+          <div class="image-4">
+            <img
+              src="assets/gryffincr4.jpg"
+              alt="Night at the Gryffindor Common Room"
+            />
+          </div>
+          <div class="image-5">
+            <img
+              src="assets/gryffincr5.jpg"
+              alt="Gryffindor Common Room with Light on and Dumbledoor Picture"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="formergryffin">
+        <h2>Former of Gryffindor</h2>
+        <div class="grid-container-former">
+          <div class="former-1">
+            <img src="assets/harrypotter.jpg" alt="Harry Potter Photo" />
+          </div>
+
+          <div class="former-2">
+            <img src="assets/ron1.jpg" alt="Ron Weasley Photo" />
+          </div>
+
+          <div class="former-3">
+            <img src="assets/hermione1.jpg" alt="Hermione Granger Photo" />
+          </div>
+
+          <div class="former-4">
+            <img src="assets/dumbledore.jpg" alt="Dumbledore Photo" />
+          </div>
+
+          <div class="former-5">
+            <img src="assets/lupin.jpg" alt="Remus Lupin Photo" />
+          </div>
+
+          <div class="former-6">
+            <img src="assets/ginny.jpg" alt="Ginny Weasley Photo" />
+          </div>
+        </div>
+      </section>
+
+      <section class="video">
+        <h2>Tour the Gryffindor Common Room</h2>
+        <div class="flex-container-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/MJTnYJA2dxE"
+            title="Hogwarts Legacy - Tour the Gryffindor Common Room [4K]"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <div class="heading-form"><h2>Join Our FanClub!</h2></div>
+        <form action="#">
+          <fieldset>
+            <legend>Personal Data:</legend>
+            <div class="nickname">
+              <label for="nickname">Nickname:</label>
+              <input id="nickname" type="username" required />
+            </div>
+
+            <div class="fullname">
+              <label for="fullName">Full Name:</label>
+              <input id="fullName" type="text" required />
+            </div>
+
+            <div class="email">
+              <label for="email">Email:</label>
+              <input id="email" type="email" required />
+            </div>
+
+            <div>
+              <p>What is your gender?</p>
+              <input type="radio" id="male" name="gender" value="Male" />
+              <label for="male">Male</label>
+              <input type="radio" id="femal" name="gender" value="Female" />
+              <label for="female">Female</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Additional information:</legend>
+            <div>
+              <p>Choose the Gryffindor values that represent you?</p>
+              <input
+                class="courage"
+                type="checkbox"
+                name="personality"
+                value="courage"
+              />
+              <label for="courage">Courage</label>
+
+              <input
+                class="bravery"
+                type="checkbox"
+                name="personality"
+                value="bravery"
+              />
+              <label for="bravery">Bravery</label>
+
+              <input
+                class="Nerve"
+                type="checkbox"
+                name="personality"
+                value="Nerve"
+              />
+              <label for="Nerve">Nerve</label>
+
+              <input
+                class="chivalry"
+                type="checkbox"
+                name="personality"
+                value="chivalry"
+              />
+              <label for="chivalry">Chivalry</label>
+            </div>
+
+            <div class="reason-join">
+              <p>Tell us the reason why you want join our club?</p>
+              <textarea rows="4"></textarea>
+            </div>
+            <div class="avatar">
+              <p>Upload your avatar:</p>
+              <input
+                type="file"
+                class="photo"
+                name="avatar"
+                required
+                accept="image/png, image/jpeg"
+              />
+            </div>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>Copyright © 2023 Gryffindor FanClub</footer>
+  </body>
+</html>
